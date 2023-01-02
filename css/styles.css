@@ -10,12 +10,9 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif, "Raleway", sans-serif;
+  font-family: "Roboto", "Raleway", sans-serif;
+  letter-spacing: 0.02em;
   color: var(--main-text-color);
-}
-
-.link {
-  text-decoration: none;
 }
 
 .list {
@@ -35,9 +32,9 @@ body {
   overflow: hidden;
 }
 
-/* -----HEADER------- */
+/* -----------------HEADER------------------------ */
 
-/* logotype */
+/* header logotype */
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -46,15 +43,16 @@ body {
   line-height: 1.3;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
-.logo.web {
+.logo .accent {
   color: var(--primary-color);
 }
-
-.logo.studio {
+.logo.header {
   color: var(--heading-text-color);
 }
+
 /* Navigation menu */
 
 .menu-nav .link {
@@ -62,7 +60,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .menu-nav .link:hover,
@@ -73,12 +71,13 @@ body {
   color: var(--pressed-state-color);
 }
 
+/* ADDRESS SECTION */
 .address-link .link {
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--main-text-color);
+  text-decoration: none;
 }
 
 .address-link .link:hover,
@@ -86,6 +85,7 @@ body {
   color: var(--pressed-state-color);
 }
 
+/* HERO SECTION */
 .hero {
   background-color: var(--heading-text-color);
 }
@@ -94,14 +94,13 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 0.02em;
   color: var(--hero-section-color);
 }
 
 .hero-btn {
+  font-family: inherit;
   background-color: var(--primary-color);
   color: var(--hero-section-color);
-  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -117,85 +116,41 @@ body {
   background-color: var(--pressed-state-color);
 }
 
-.feauters-title {
+/* TEXTS SECTIONS */
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  color: var(--heading-text-color);
+}
+
+.section-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
   color: var(--heading-text-color);
 }
 
-.feauters-text {
+.section-text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--main-text-color);
-}
-
-.services-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--heading-text-color);
 }
 
 .team {
   background-color: var(--light-mode-color);
 }
 
-.team-title {
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--heading-text-color);
-}
-
 .team-card {
   background-color: var(--hero-section-color);
 }
 
-.team-card-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--heading-text-color);
-}
-
-.team-card-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--main-text-color);
-}
-
 .footer {
   background-color: var(--heading-text-color);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--accent-color);
 }
-.logo.studio.light {
+.logo.footer {
   color: var(--light-mode-color);
-}
-
-.project-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--heading-text-color);
-}
-
-.project-desc {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--main-text-color);
 }
 
 .filter-btn {
