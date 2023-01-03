@@ -11,8 +11,11 @@
 
 body {
   font-family: "Roboto", "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+  background-color: var(--hero-section-color);
 }
 
 .list {
@@ -58,7 +61,6 @@ body {
 .menu-nav .link {
   color: var(--heading-text-color);
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   text-decoration: none;
 }
@@ -74,7 +76,6 @@ body {
 /* ADDRESS SECTION */
 .address-link .link {
   font-style: normal;
-  font-size: 16px;
   line-height: 1.5;
   color: var(--main-text-color);
   text-decoration: none;
@@ -99,11 +100,11 @@ body {
 
 .hero-btn {
   font-family: inherit;
+  font-weight: 500;
+  font-size: inherit;
+  line-height: 1.5;
   background-color: var(--primary-color);
   color: var(--hero-section-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
   align-items: center;
   letter-spacing: 0.04em;
   border: none;
@@ -132,7 +133,6 @@ body {
 }
 
 .section-text {
-  font-size: 16px;
   line-height: 1.5;
   color: var(--main-text-color);
 }
@@ -156,7 +156,7 @@ body {
 .filter-btn {
   font-family: inherit;
   font-weight: 500;
-  font-size: 16px;
+  font-size: inherit;
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: var(--light-mode-color);
